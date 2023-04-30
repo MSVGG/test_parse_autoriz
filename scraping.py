@@ -1,3 +1,4 @@
+# pip install requests, beautifulsoup4, xlsxwriter
 import requests
 from bs4 import BeautifulSoup
 from time import sleep
