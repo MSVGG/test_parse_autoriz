@@ -1,4 +1,4 @@
-#!C:\Users\Админ\Desktop\projects_from_github\trial_parsing\venvTrial_parsing\Scripts\python.exe
+#!C:\Users\Админ\desktop\projects_from_github\trial_parsing\venvTrial_parsing\Scripts\python.exe
 
 ##############################################################################
 #

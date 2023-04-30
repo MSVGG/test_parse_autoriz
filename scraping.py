@@ -1,5 +1,5 @@
-# pip install requests, beautifulsoup4, xlsxwriter
 import requests
+import lxml
 from bs4 import BeautifulSoup
 from time import sleep
 
@@ -14,7 +14,7 @@ def b_soup(url):
 
 def download(url):
     r = requests.get(url, stream=True, headers=headers)
-    r_o = open("D:\\Python\\Python (обучение)\\pars\\img_pars\\" +
+    r_o = open("C:\\Users\\Админ\\Desktop\\projects_from_github\\trial_parsing\\img_pars\\" +
                url.split('/')[-1], 'wb')
     for value in r.iter_content(1024*1024):
         r_o.write(value)

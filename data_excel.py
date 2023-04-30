@@ -4,7 +4,7 @@ from scraping import array
 
 def writer(p):
     book = xlsxwriter.Workbook(
-        r"D:\Python\Python (обучение)\pars\data.xlsx")
+        r"C:\Users\Админ\Desktop\projects_from_github\trial_parsing\data.xlsx")
     page = book.add_worksheet('product')
 
     row = 0
@@ -23,5 +23,5 @@ def writer(p):
         row += 1
     book.close()
 
-
-writer(array)
+if __name__ == "__main__":
+    writer(array)
