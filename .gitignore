@@ -1,4 +1,4 @@
-venvTrial_parsing\
-img_pars\
-__pacache__\
+venvTrial_parsing/
+img_pars/
+__pycache__/
 data.xlsx
