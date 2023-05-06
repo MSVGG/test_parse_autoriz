@@ -1,4 +1,5 @@
 venvTrial_parsing/
-img_pars/
+img_pars/*
 __pycache__/
 data.xlsx
+.vscode/
